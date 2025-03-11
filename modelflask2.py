@@ -32,9 +32,8 @@ def generate_log_summary():
 
     summary = {
         "Total Logs": len(df),
-        "Avg Errors": round(df["error_count"].mean(), 2) if "error_count" in df.columns else "N/A",
-        "Max Response Time": round(df["response_time"].max(), 2) if "response_time" in df.columns else "N/A",
-        "Min Response Time": round(df["response_time"].min(), 2) if "response_time" in df.columns else "N/A"
+        "Avg Errors": round(df["Failure_Type"].mean(), 2) if "Failure_Type" in df.columns else "N/A",
+      
     }
     
     return f"Log Summary: {summary}"
