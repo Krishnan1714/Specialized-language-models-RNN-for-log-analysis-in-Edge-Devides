@@ -1,0 +1,11 @@
+tokens,ner_tags
+"['Calculate', 'the', 'average', 'temperature', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'O']"
+"['Determine', 'the', 'minimum', 'power', 'consumption', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Find', 'the', 'latest', 'rotation', 'speed', 'and', 'maximum', 'torque', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O', 'B-FUNC', 'B-PARAM', 'O']"
+"['Show', 'the', 'trend', 'air', 'pressure', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Identify', 'the', 'maximum', 'system', 'load', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Measure', 'the', 'latest', 'fault', 'detection', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Calculate', 'the', 'minimum', 'process', 'temperature', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Determine', 'the', 'average', 'tool', 'wear', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Find', 'the', 'maximum', 'torque', 'and', 'minimum', 'rotation', 'speed', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'O', 'B-FUNC', 'B-PARAM', 'I-PARAM', 'O']"
+"['Show', 'the', 'latest', 'summary', '.']","['O', 'O', 'B-FUNC', 'B-PARAM', 'O']"
