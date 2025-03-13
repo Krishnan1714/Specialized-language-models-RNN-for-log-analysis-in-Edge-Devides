@@ -1,1 +1,5 @@
 matplotlib
+torch
+pandas
+numpy
+transformers
