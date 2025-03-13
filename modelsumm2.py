@@ -7,6 +7,9 @@ from transformers import AutoTokenizer, AutoModel
 from sklearn.preprocessing import MinMaxScaler
 from transformers import AutoTokenizer, TFAutoModelForSeq2SeqLM
 import torch
+from sklearn.metrics import r2_score, mean_absolute_error
+import matplotlib.pyplot as plt
+from sklearn.model_selection import TimeSeriesSplit
 
 # Define device (use GPU if available, otherwise fallback to CPU)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -37,6 +40,9 @@ df_scaled = scaler.fit_transform(df[features])
 
 # Function to create LSTM sequences
 def create_sequences(data, seq_length=10):
+    """Creates sequences of data for LSTM training, ensuring dataset is large enough."""
+    if len(data) < seq_length:
+        raise ValueError("Dataset too small for the specified sequence length.")
     X, y = [], []
     for i in range(len(data) - seq_length):
         X.append(data[i : i + seq_length])
@@ -45,29 +51,65 @@ def create_sequences(data, seq_length=10):
 
 X, y = create_sequences(df_scaled, seq_length=10)
 
-# Split into Train/Test
-split = int(len(X) * 0.8)
-X_train, y_train = X[:split], y[:split]
-X_test, y_test = X[split:], y[split:]
+# Time Series Cross-Validation
+tscv = TimeSeriesSplit(n_splits=5)
+
+# Get the last train-test split from TimeSeriesSplit
+train_index, test_index = list(tscv.split(X))[-1]  # Use only the last split
+X_train, X_test = X[train_index], X[test_index]
+y_train, y_test = y[train_index], y[test_index]
 
 # LSTM Model
-model = Sequential([
-    LSTM(64, return_sequences=True, input_shape=(X.shape[1], X.shape[2])),
-    Dropout(0.2),
-    LSTM(32, return_sequences=False),
-    Dropout(0.2),
-    Dense(len(features))  # Multi-output prediction
-])
+def build_model():
+    """Builds and compiles an LSTM model."""
+    model = Sequential([
+        LSTM(128, return_sequences=True, input_shape=(X.shape[1], X.shape[2])),
+        Dropout(0.3),
+        LSTM(64, return_sequences=False),
+        Dropout(0.3),
+        Dense(len(features))
+    ])
 
-model.compile(optimizer="adam", loss="mse")
+    model.compile(optimizer="adam", loss="mse")
+    return model
+
+model = build_model()
+
+# Train the model only once
 model.fit(X_train, y_train, epochs=20, batch_size=16, validation_data=(X_test, y_test))
 
 # Predict Trends
 predictions = model.predict(X_test)
-predictions = scaler.inverse_transform(predictions)
+predictions_original = scaler.inverse_transform(predictions)
+y_test_original = scaler.inverse_transform(y_test)
+
+# Evaluate Model
+def evaluate_model(predictions, y_test_original):
+    """Evaluates the model using MSE, R² Score, and MAE."""
+    loss = model.evaluate(X_test, y_test)
+    print(f"Test Loss (MSE): {loss:.4f}")
+
+    # Compute R² Score
+    r2 = r2_score(y_test_original, predictions)
+    print(f"R² Score (Accuracy): {r2:.4f}")
+
+    # Compute Mean Absolute Error (MAE)
+    mae = mean_absolute_error(y_test_original, predictions)
+    print(f"Mean Absolute Error (MAE): {mae:.4f}")
+
+    # Plot Actual vs Predicted Values
+    plt.figure(figsize=(10,5))
+    plt.plot(y_test_original[:,0], label="Actual", color='blue')
+    plt.plot(predictions_original[:,0], label="Predicted", color='red')
+    plt.legend()
+    plt.title("Actual vs Predicted Trends")
+    plt.show()
+
+evaluate_model(predictions_original, y_test_original)
 
 # Convert trend predictions into a log-like text format
 def generate_log_text(predicted_trends):
+    """Generates a textual summary of predicted trends."""
     log_summary = "🔍 System Log Summary:\n"
     for i, feature in enumerate(features):
         rate_of_change = predicted_trends[-1][i] - predicted_trends[-2][i]
@@ -82,3 +124,15 @@ def generate_log_text(predicted_trends):
 # Example LSTM-generated summary
 log_summary = generate_log_text(predictions[-10:])
 print(log_summary)
+
+# Test Model Predictions
+def test_predictions():
+    """Tests model predictions against actual values."""
+    print("First 5 Predictions:", predictions[:5])
+    print("First 5 Actual Values:", scaler.inverse_transform(y_test[:5]))
+    
+    single_input = np.expand_dims(X_test[0], axis=0)
+    single_prediction = model.predict(single_input)
+    print("Single Prediction Output:", scaler.inverse_transform(single_prediction))
+
+test_predictions()
