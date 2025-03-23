@@ -22,15 +22,7 @@ print(df.columns)
 df.columns = df.columns.str.strip()  # Removes any extra spaces
 print(df.head())
 
-# Print Statistical Summary
-statistical_summary = df.describe()
-print("📊 Statistical Summary:")
-print(statistical_summary)
 
-# Print Failure Summary
-failure_summary = df["Failure Type"].value_counts()
-print("⚠️ Failure Summary:")
-print(failure_summary)
 
 # Features for trend detection
 features = ["Air temperature","Process temperature","Rotational speed","Torque","Tool wear","Target","Type","Failure Type"]
@@ -83,29 +75,6 @@ predictions = model.predict(X_test)
 predictions_original = scaler.inverse_transform(predictions)
 y_test_original = scaler.inverse_transform(y_test)
 
-# Evaluate Model
-def evaluate_model(predictions, y_test_original):
-    """Evaluates the model using MSE, R² Score, and MAE."""
-    loss = model.evaluate(X_test, y_test)
-    print(f"Test Loss (MSE): {loss:.4f}")
-
-    # Compute R² Score
-    r2 = r2_score(y_test_original, predictions)
-    print(f"R² Score (Accuracy): {r2:.4f}")
-
-    # Compute Mean Absolute Error (MAE)
-    mae = mean_absolute_error(y_test_original, predictions)
-    print(f"Mean Absolute Error (MAE): {mae:.4f}")
-
-    # Plot Actual vs Predicted Values
-    plt.figure(figsize=(10,5))
-    plt.plot(y_test_original[:,0], label="Actual", color='blue')
-    plt.plot(predictions_original[:,0], label="Predicted", color='red')
-    plt.legend()
-    plt.title("Actual vs Predicted Trends")
-    plt.show()
-
-evaluate_model(predictions_original, y_test_original)
 
 # Convert trend predictions into a log-like text format
 def generate_log_text(predicted_trends):
@@ -121,10 +90,24 @@ def generate_log_text(predicted_trends):
             log_summary += f"✅ {feature.replace('_', ' ').title()} remains stable.\n"
     return log_summary
 
-# Example LSTM-generated summary
-log_summary = generate_log_text(predictions[-10:])
-print(log_summary)
 
+
+def generate_summary(df):
+    # Print Statistical Summary
+    statistical_summary = df.describe()
+    print("📊 Statistical Summary:")
+    print(statistical_summary)
+
+    # Print Failure Summary
+    failure_summary = df["Failure Type"].value_counts()
+    print("⚠️ Failure Summary:")
+    print(failure_summary)
+
+    #trends
+    # Example LSTM-generated summary
+    log_summary = generate_log_text(predictions[-10:])
+    print(log_summary)
+generate_summary(df)
 # Test Model Predictions
 def test_predictions():
     """Tests model predictions against actual values."""
@@ -136,3 +119,4 @@ def test_predictions():
     print("Single Prediction Output:", scaler.inverse_transform(single_prediction))
 
 test_predictions()
+

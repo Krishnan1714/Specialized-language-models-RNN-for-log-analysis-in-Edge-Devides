@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 import numpy as np
-
+from modelsumm2 import generate_summary
 # Load dataset
 file_path = "cleaned_data.csv"  # Update with the correct path
 df = pd.read_csv(file_path)
@@ -33,11 +33,13 @@ def execute_function(parsed_data, df):
                 results[feature] = np.mean(values)
             elif function == "standard deviation":
                 results[feature] = np.std(values)
+            elif function == "summary":
+                results[feature] = df.describe()
     
     return results
 
 # Example input from chatbot
-user_input = "Torque: maximum, Air temperature: minimum, Rotational speed: mean, Tool wear: std"
+user_input = "Torque: maximum, Air temperature: minimum, Rotational speed: mean, Tool wear: std, Summary : summary"
 
 # Process input and execute functions
 parsed_data = parse_input(user_input)
