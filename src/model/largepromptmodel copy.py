@@ -19,7 +19,7 @@ print("Using device:", device)
 # -------------------------------
 # 1. Load and Process the Dataset
 # -------------------------------
-csv_path = "assets/log_analysis_ner_large_dataset_cleaned.csv"
+csv_path = "assets/log_analysis_ner_cleaned.csv"
 df = pd.read_csv(csv_path)
 
 def process_cell(cell):
@@ -46,7 +46,7 @@ print(df.head())
 # 2. Hard-Coded Label Mapping
 # -------------------------------
 # We assume the allowed tags are exactly these four.
-label2id = {"B-FUNC": 0, "B-PARAM": 1, "I-PARAM": 2, "O": 3}
+label2id = {"B-FUNC": 0, "B-PARAM": 1, "I-PARAM": 2,"B-SUMMARY": 3, "O": 4}
 id2label = {i: label for label, i in label2id.items()}
 print("Hard-coded label mapping:", label2id)
 
@@ -159,7 +159,7 @@ trainer = Trainer(
 # -------------------------------
 trainer.train()
 
-model.save_pretrained("./tinybert_ner_trained_model")
-tokenizer.save_pretrained("./tinybert_ner_trained_model")
+model.save_pretrained("./tinybert_ner_trained_model_input")
+tokenizer.save_pretrained("./tinybert_ner_trained_model_input")
 
 print("✅ Training complete. Model saved at './tinybert_ner_trained_model'")

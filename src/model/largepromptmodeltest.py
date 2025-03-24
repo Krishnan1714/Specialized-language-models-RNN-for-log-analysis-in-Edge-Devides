@@ -12,6 +12,8 @@ from transformers import (
     DataCollatorForTokenClassification
 )
 import evaluate
+from sklearn.model_selection import train_test_split
+
 
 # -------------------------------
 # 1. Set Device and Load Label Mapping
@@ -22,7 +24,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print("Using device:", device)
 
 # Hard-coded label mapping (as used during training)
-label2id = {"B-FUNC": 0, "B-PARAM": 1, "I-PARAM": 2, "O": 3}
+label2id = {"B-FUNC": 0, "B-PARAM": 1, "I-PARAM": 2,"B-SUMMARY": 3, "O": 4}
 id2label = {i: label for label, i in label2id.items()}
 print("Hard-coded label mapping:", label2id)
 
@@ -36,7 +38,7 @@ print("Hard-coded label mapping:", label2id)
 # 2. Load the Saved Model and Tokenizer
 # -------------------------------
 MODEL_NAME = "huawei-noah/TinyBERT_General_4L_312D"
-model_path = "./tinybert_ner_trained_model"
+model_path = "models/tinybert_ner_trained_model_input"
 model = AutoModelForTokenClassification.from_pretrained(
     model_path,
     num_labels=len(label2id),
@@ -58,8 +60,12 @@ def load_test_dataset(csv_path):
     df["ner_tags"] = df["ner_tags"].apply(ast.literal_eval)
     return df
 
-test_csv_path = "assets/synthetic_log_analysis_ner.csv"
-df_test = load_test_dataset(test_csv_path)
+dataset_path = "assets/log_analysis_ner_with_negatives.csv"
+df = load_test_dataset(dataset_path)
+df_train, df_test = train_test_split(df, test_size=0.2, random_state=42)
+
+test_dataset = Dataset.from_pandas(df_test)
+
 test_dataset = Dataset.from_pandas(df_test)
 
 # Define tokenization and label alignment (same as during training)

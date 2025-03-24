@@ -1,2 +1,4 @@
 tinybert_log_classifier/
 models/
+myenv/
+my_tf_env/

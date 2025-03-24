@@ -1,1 +1,1 @@
-{"label2id": {"B-FUNC": 0, "B-PARAM": 1, "I-PARAM": 2, "O": 3}, "id2label": {"0": "B-FUNC", "1": "B-PARAM", "2": "I-PARAM", "3": "O"}}
+{"label2id": {"B-FUNC": 0, "B-PARAM": 1, "I-PARAM": 2, "B-SUMMARY": 3, "O": 4}, "id2label": {"0": "B-FUNC", "1": "B-PARAM", "2": "I-PARAM", "3": "B-SUMMARY", "4": "O"}}
