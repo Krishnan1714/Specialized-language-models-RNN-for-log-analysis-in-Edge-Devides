@@ -7,13 +7,18 @@ from sklearn.metrics import r2_score, mean_absolute_error
 import matplotlib.pyplot as plt
 from sklearn.model_selection import TimeSeriesSplit
 from torch.utils.data import DataLoader, TensorDataset
+import joblib
+
+# Load the StandardScaler used during preprocessing
+scaler_standard = joblib.load("scaler_standard.pkl")
+
 
 # Define device (use GPU if available, otherwise fallback to CPU)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
 
 # Load the cleaned and scaled dataset
-df = pd.read_csv("cleaned_data_normalized.csv")
+df = pd.read_csv("cleaned_data_scaled.csv")
 
 # Define features and target
 target_column = "Target"
@@ -113,8 +118,11 @@ def predict_with_retrieval(model, full_data, seq_length=20):
     model.eval()
     with torch.no_grad():
         prediction = model(retrieved_logs).cpu().numpy()
+        # Assume 'predictions' is the LSTM output in scaled format
+        real_prediction = scaler_standard.inverse_transform(prediction)
+
     
-    return prediction
+    return real_prediction
 
 def rag_time_series_pipeline(model, df, seq_length=20):
     """RAG-like pipeline for LSTM-based time-series forecasting."""

@@ -5,3 +5,4 @@ numpy
 tensorflow
 transformers
 scikit-learn
+fastdtw
