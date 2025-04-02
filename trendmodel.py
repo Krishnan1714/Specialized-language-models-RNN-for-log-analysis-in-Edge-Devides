@@ -103,7 +103,7 @@ model.eval()
 print("MODEL EVAL \n",model.eval())
 predictions = model(X_test).cpu().detach().numpy()  # Generate predictions on the test set
 predictions_original = inverse_transform(predictions)  # Inverse scale the predictions
-print(predictions_original.head())  # Display first few predicted rows
+print("First five predictions:\n",predictions_original.head())  # Display first few predicted rows
 
 # Trend analysis for predicted and actual values
 def trend_analysis(actual, predicted):
@@ -112,16 +112,19 @@ def trend_analysis(actual, predicted):
     trends = {}
     trend_text = ""
     for col in features:
-        actual_trend = np.polyfit(range(len(actual_df[col])), actual_df[col], 1)[0]
-        predicted_trend = np.polyfit(range(len(predicted_df[col])), predicted_df[col], 1)[0]
+        actual_trend = float(np.polyfit(range(len(actual_df[col])), actual_df[col], 1)[0])
+        predicted_trend = float(np.polyfit(range(len(predicted_df[col])), predicted_df[col], 1)[0])
         trends[col] = (actual_trend, predicted_trend)
-        trend_text += f"{col}: Actual Trend: {'Increasing' if actual_trend > 0 else 'Decreasing' if actual_trend < 0 else 'Stable'}, Predicted Trend: {'Increasing' if predicted_trend > 0 else 'Decreasing' if predicted_trend < 0 else 'Stable'}\n"
+        trend_text += f"{col}:\n Actual Trend:{'Increasing' if actual_trend > 0 else 'Decreasing' if actual_trend < 0 else 'Stable'}, Predicted Trend: {'Increasing' if predicted_trend > 0 else 'Decreasing' if predicted_trend < 0 else 'Stable'}\n"
     return trends, trend_text
 
 # Perform trend analysis
 trends, trend_text = trend_analysis(y_test.cpu().numpy(), predictions)
-print("Trend Analysis (Actual vs Predicted):", trends)
-print(trend_text)
+print("\nTrend Analysis (Actual vs Predicted slope):\n")
+for feature, (actual_trend, predicted_trend) in trends.items():
+    print(f"{feature}:\t Actual Trend = {actual_trend:.6f} \t Predicted Trend = {predicted_trend:.6f}")
+
+print("\n Trend Text\n",trend_text)
 
 # Generate predictions
 with torch.no_grad():
