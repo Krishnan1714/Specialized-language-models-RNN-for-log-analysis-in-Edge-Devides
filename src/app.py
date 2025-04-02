@@ -26,7 +26,7 @@ class ChatbotGUI:
         self.file_button.grid(row=2, column=0, columnspan=2, pady=5)
 
         self.file_paths = []  # Store uploaded file paths
-
+    
     def display_message(self, sender, message):
         self.chat_log.config(state='normal')
         self.chat_log.insert(tk.END, f"{sender}: {message}\n")

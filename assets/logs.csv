@@ -1,0 +1,3100 @@
+Logs,Summary
+"Process temperature exceeds threshold at 309.1K.
+High rotational speed detected: 1885 rpm.
+Torque increasing to 55.2 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1345 rpm.
+Torque decreasing to 29.5 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1920 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.9 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between approximately 1325 rpm and 1945 rpm, while torque fluctuated from about 28.9 Nm to 56.0 Nm. Air temperatures shifted from 297.4K to 299.8K. A Tool Wear Failure was recorded, indicating potential maintenance concerns."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","Throughout this period, process temperatures varied between 309.2K and 309.7K. Rotational speeds ranged from about 1330 rpm to 1965 rpm, while torque values fluctuated between roughly 28.8 Nm and 56.2 Nm. Air temperatures shifted from 297.5K to 299.9K. No failure events were recorded, and the system operated within expected parameters."
+"Process temperature exceeds threshold at 309.1K.
+Low rotational speed: 1320 rpm.
+Torque decreasing to 28.5 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Failure detected: Tool Wear Failure.","During this monitoring period, process temperatures varied between 309.1K and 309.6K. Rotational speeds ranged from 1320 rpm to 1955 rpm, while torque values fluctuated between 28.5 Nm and 56.0 Nm. Air temperatures shifted between 297.4K and 299.9K. A Tool Wear Failure was detected, indicating a possible need for equipment maintenance."
+"Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1910 rpm.
+Torque increasing to 55.0 Nm.
+Air temperature rising to 299.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature dropping to 297.8K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.","In this interval, process temperatures were between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, and torque ranged from 29.0 Nm to 56.1 Nm. Air temperatures fluctuated between 297.6K and 299.8K. No failures were observed."
+"Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1328 rpm.
+Torque decreasing to 29.1 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1920 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.8K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 28.7 Nm.
+Air temperature dropping to 297.4K.","Process conditions during this period ranged from 309.2K to 309.8K with rotational speeds between 1328 rpm and 1950 rpm. Torque values were between 28.7 Nm and 56.0 Nm, while air temperatures spanned from 297.4K to 299.9K. Normal operation was maintained."
+"Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.3 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.7K.","This period featured process temperatures between 309.5K and 309.7K. Rotational speeds were between 1332 rpm and 1960 rpm and torque ranged from 29.3 Nm to 56.2 Nm. Air temperature changes remained within 297.6K to 299.9K, with all parameters normal."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.4 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature dropping to 297.7K.","During this cycle, temperatures were observed between 309.2K and 309.6K. The rotational speeds ranged from 1330 rpm to 1960 rpm, while torque values went from 29.0 Nm to 56.1 Nm. Air temperature fluctuated modestly between 297.5K and 299.8K."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.","This entry shows process temperatures ranging from 309.3K to 309.7K. Rotational speeds varied between 1325 rpm and 1955 rpm, torque values between 28.8 Nm and 56.0 Nm, and air temperatures from 297.4K to 299.9K. No failures occurred."
+"Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1915 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.1 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.4 Nm.
+Air temperature rising to 299.7K.","Process parameters in this period were tightly maintained with temperatures between 309.2K and 309.7K, rotational speeds from 1335 rpm to 1940 rpm, and torque between 29.1 Nm and 56.0 Nm. Normal operation was observed."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1322 rpm.
+Torque decreasing to 28.7 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1920 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.","In this segment, process temperatures ranged from 309.3K to 309.7K, with rotational speeds between 1322 rpm and 1950 rpm, and torque values from 28.7 Nm to 56.0 Nm. Air temperatures varied from 297.4K to 299.8K. No faults were reported."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.9K.","This period exhibited process temperatures between 309.2K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, while torque ranged between 29.2 Nm and 56.1 Nm. Air temperatures remained within 297.6K to 299.9K, and all readings were within acceptable limits."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Failure detected: Tool Wear Failure.","Over this cycle, process temperatures ranged from 309.3K to 309.7K. Rotational speeds were between 1325 rpm and 1955 rpm, with torque values from 28.8 Nm to 56.0 Nm. Air temperatures varied from 297.5K to 299.8K. A Tool Wear Failure was noted."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, with torque values between 28.8 Nm and 56.2 Nm. Air temperatures spanned 297.5K to 299.9K, and operations remained normal."
+"Process temperature exceeds threshold at 309.1K.
+Low rotational speed: 1320 rpm.
+Torque decreasing to 28.5 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Failure detected: Tool Wear Failure.","During this monitoring period, process temperatures varied from 309.1K to 309.6K. Rotational speeds ranged from 1320 rpm to 1955 rpm, with torque values between 28.5 Nm and 56.0 Nm. Air temperatures shifted from 297.4K to 299.9K. A Tool Wear Failure was detected."
+"Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1910 rpm.
+Torque increasing to 55.0 Nm.
+Air temperature rising to 299.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature dropping to 297.8K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.","In this interval, process temperatures ranged between 309.3K and 309.7K. The rotational speeds varied from 1330 rpm to 1945 rpm, and torque ranged from 29.0 Nm to 56.1 Nm. Air temperatures were maintained between 297.6K and 299.8K, with no faults."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.9K.","Process conditions during this period were stable with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures were within expected limits."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Failure detected: Tool Wear Failure.","This entry indicates process temperatures between 309.3K and 309.7K, rotational speeds from 1325 rpm to 1955 rpm, and torque values between 28.8 Nm and 56.0 Nm. Air temperature varied from 297.5K to 299.8K with a recorded Tool Wear Failure."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","Over this cycle, temperatures varied from 309.2K to 309.7K, rotational speeds from 1330 rpm to 1965 rpm, and torque from 28.8 Nm to 56.2 Nm. Air temperatures ranged between 297.5K and 299.9K, with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+Low rotational speed: 1320 rpm.
+Torque decreasing to 28.5 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Failure detected: Tool Wear Failure.","During this period, temperatures were between 309.1K and 309.6K, rotational speeds ranged from 1320 rpm to 1955 rpm, and torque values varied from 28.5 Nm to 56.0 Nm. Air temperatures spanned 297.4K to 299.9K, with one Tool Wear Failure recorded."
+"Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1910 rpm.
+Torque increasing to 55.0 Nm.
+Air temperature rising to 299.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature dropping to 297.8K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds fluctuated from 1330 rpm to 1945 rpm, torque values from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no issues."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.9K.","During this cycle, the process temperature was maintained between 309.2K and 309.7K, with rotational speeds from 1332 rpm to 1960 rpm and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures were consistent between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Failure detected: Tool Wear Failure.","Process parameters ranged from 309.3K to 309.7K with rotational speeds between 1325 rpm and 1955 rpm. Torque varied from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure occurred."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","During this period, process temperatures ranged from 309.2K to 309.7K, rotational speeds varied from 1330 rpm to 1965 rpm, and torque ranged from 28.8 Nm to 56.2 Nm. Air temperatures were maintained between 297.5K and 299.9K with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+High rotational speed detected: 1885 rpm.
+Torque increasing to 55.2 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1345 rpm.
+Torque decreasing to 29.5 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1920 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.9 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between 1325 rpm and 1945 rpm, torque values from 28.9 Nm to 56.0 Nm, and air temperatures shifted from 297.4K to 299.8K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, torque values fluctuated between 28.8 Nm and 56.2 Nm, and air temperatures shifted from 297.5K to 299.9K. No failure events occurred."
+"Process temperature exceeds threshold at 309.1K.
+Low rotational speed: 1320 rpm.
+Torque decreasing to 28.5 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Failure detected: Tool Wear Failure.","During this monitoring period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between 1320 rpm and 1955 rpm, torque values from 28.5 Nm to 56.0 Nm, and air temperatures shifted from 297.4K to 299.9K. A Tool Wear Failure was detected."
+"Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1910 rpm.
+Torque increasing to 55.0 Nm.
+Air temperature rising to 299.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature dropping to 297.8K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.","In this interval, process temperatures were between 309.3K and 309.7K. Rotational speeds ranged from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures fluctuated between 297.6K and 299.8K. No failures occurred."
+"Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1328 rpm.
+Torque decreasing to 29.1 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1920 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.8K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 28.7 Nm.
+Air temperature dropping to 297.4K.","Process conditions during this period ranged from 309.2K to 309.8K with rotational speeds between 1328 rpm and 1950 rpm. Torque values spanned from 28.7 Nm to 56.0 Nm, and air temperatures varied from 297.4K to 299.9K. Normal operation was maintained."
+"Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.3 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.7K.","This period featured process temperatures between 309.5K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, torque ranged from 29.3 Nm to 56.2 Nm, and air temperatures stayed between 297.6K and 299.9K, with all parameters normal."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.4 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature dropping to 297.7K.","During this cycle, process temperatures ranged from 309.2K to 309.6K. Rotational speeds ranged from 1330 rpm to 1960 rpm, torque varied from 29.0 Nm to 56.1 Nm, and air temperatures shifted from 297.5K to 299.8K."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.","This entry shows process temperatures ranging from 309.3K to 309.7K. Rotational speeds varied between 1325 rpm and 1955 rpm, torque values from 28.8 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. No failure events occurred."
+"Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1915 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.1 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.4 Nm.
+Air temperature rising to 299.7K.","Process parameters in this period were maintained with temperatures between 309.2K and 309.7K, rotational speeds from 1335 rpm to 1940 rpm, and torque between 29.1 Nm and 56.0 Nm. Normal operation was observed."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1322 rpm.
+Torque decreasing to 28.7 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1920 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.","In this segment, process temperatures ranged from 309.3K to 309.7K, with rotational speeds between 1322 rpm and 1950 rpm, and torque values from 28.7 Nm to 56.0 Nm. Air temperatures varied from 297.4K to 299.8K. No faults were reported."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.9K.","This period exhibited process temperatures between 309.2K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, torque ranged between 29.2 Nm and 56.1 Nm, and air temperatures were maintained between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Failure detected: Tool Wear Failure.","Over this cycle, process temperatures ranged from 309.3K to 309.7K. Rotational speeds were between 1325 rpm and 1955 rpm, with torque values from 28.8 Nm to 56.0 Nm. Air temperatures varied from 297.5K to 299.8K. A Tool Wear Failure was noted."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, with torque values between 28.8 Nm and 56.2 Nm. Air temperatures spanned 297.5K to 299.9K, and operations remained normal."
+"Process temperature exceeds threshold at 309.1K.
+Low rotational speed: 1320 rpm.
+Torque decreasing to 28.5 Nm.
+Air temperature dropping to 297.4K.
+Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.6 Nm.
+Air temperature rising to 299.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1940 rpm.
+Torque increasing to 55.8 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.2K.
+Low rotational speed: 1335 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Failure detected: Tool Wear Failure.","During this period, temperatures ranged from 309.1K to 309.6K, rotational speeds from 1320 rpm to 1955 rpm, and torque values between 28.5 Nm and 56.0 Nm. Air temperatures shifted from 297.4K to 299.9K, with a Tool Wear Failure recorded."
+"Process temperature exceeds threshold at 309.3K.
+High rotational speed detected: 1910 rpm.
+Torque increasing to 55.0 Nm.
+Air temperature rising to 299.5K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1930 rpm.
+Torque increasing to 55.7 Nm.
+Air temperature dropping to 297.8K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1945 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.7K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.","In this interval, process temperatures ranged between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures were maintained between 297.6K and 299.8K."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1900 rpm.
+Torque increasing to 55.3 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1935 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1332 rpm.
+Torque decreasing to 29.2 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1960 rpm.
+Torque increasing to 56.1 Nm.
+Air temperature rising to 299.9K.","Process conditions during this period were stable with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures remained within expected limits."
+"Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1325 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.5K.
+High rotational speed detected: 1925 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1955 rpm.
+Torque increasing to 56.0 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.4K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.5K.
+Failure detected: Tool Wear Failure.","Process parameters ranged from 309.3K to 309.7K with rotational speeds between 1325 rpm and 1955 rpm. Torque varied from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure occurred."
+"Process temperature exceeds threshold at 309.2K.
+High rotational speed detected: 1905 rpm.
+Torque increasing to 55.5 Nm.
+Air temperature rising to 299.7K.
+Process temperature exceeds threshold at 309.3K.
+Low rotational speed: 1330 rpm.
+Torque decreasing to 29.0 Nm.
+Air temperature dropping to 297.6K.
+Process temperature exceeds threshold at 309.4K.
+High rotational speed detected: 1950 rpm.
+Torque increasing to 55.9 Nm.
+Air temperature rising to 299.9K.
+Process temperature exceeds threshold at 309.6K.
+Low rotational speed: 1340 rpm.
+Torque decreasing to 28.8 Nm.
+Air temperature dropping to 297.5K.
+Process temperature exceeds threshold at 309.7K.
+High rotational speed detected: 1965 rpm.
+Torque increasing to 56.2 Nm.
+Air temperature rising to 299.8K.
+Process temperature exceeds threshold at 309.5K.
+System operating within normal parameters.","Over this cycle, temperatures varied from 309.2K to 309.7K, rotational speeds from 1330 rpm to 1965 rpm, and torque from 28.8 Nm to 56.2 Nm. Air temperatures ranged between 297.5K and 299.9K, with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+High rotational speed detected: 1885 rpm.
+
+Torque increasing to 55.2 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1345 rpm.
+
+Torque decreasing to 29.5 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1920 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.9 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between 1325 rpm and 1945 rpm, torque values from 28.9 Nm to 56.0 Nm, and air temperatures shifted from 297.4K to 299.8K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, torque values fluctuated between 28.8 Nm and 56.2 Nm, and air temperatures shifted from 297.5K to 299.9K. No failure events occurred."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this monitoring period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between 1320 rpm and 1955 rpm, torque values from 28.5 Nm to 56.0 Nm, and air temperatures shifted from 297.4K to 299.9K. A Tool Wear Failure was detected."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","In this interval, process temperatures were between 309.3K and 309.7K. Rotational speeds ranged from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures fluctuated between 297.6K and 299.8K. No failures occurred."
+"Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1328 rpm.
+
+Torque decreasing to 29.1 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1920 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.8K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 28.7 Nm.
+
+Air temperature dropping to 297.4K.","Process conditions during this period ranged from 309.2K to 309.8K with rotational speeds between 1328 rpm and 1950 rpm. Torque values spanned from 28.7 Nm to 56.0 Nm, and air temperatures varied from 297.4K to 299.9K. Normal operation was maintained."
+"Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.3 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.7K.","This period featured process temperatures between 309.5K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, torque ranged from 29.3 Nm to 56.2 Nm, and air temperatures stayed between 297.6K and 299.9K, with all parameters normal."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.4 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature dropping to 297.7K.","During this cycle, process temperatures ranged from 309.2K to 309.6K. Rotational speeds ranged from 1330 rpm to 1960 rpm, torque varied from 29.0 Nm to 56.1 Nm, and air temperatures shifted from 297.5K to 299.8K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.","This entry shows process temperatures ranging from 309.3K to 309.7K. Rotational speeds varied between 1325 rpm and 1955 rpm, torque values from 28.8 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. No failure events occurred."
+"Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1915 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.1 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.4 Nm.
+
+Air temperature rising to 299.7K.","Process parameters in this period were maintained with temperatures between 309.2K and 309.7K, rotational speeds from 1335 rpm to 1940 rpm, and torque between 29.1 Nm and 56.0 Nm. Normal operation was observed."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1322 rpm.
+
+Torque decreasing to 28.7 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1920 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.","In this segment, process temperatures ranged from 309.3K to 309.7K, with rotational speeds between 1322 rpm and 1950 rpm, and torque values from 28.7 Nm to 56.0 Nm. Air temperatures varied from 297.4K to 299.8K. No faults were reported."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","This period exhibited process temperatures between 309.2K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, torque ranged between 29.2 Nm and 56.1 Nm, and air temperatures were maintained between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Over this cycle, process temperatures ranged from 309.3K to 309.7K. Rotational speeds were between 1325 rpm and 1955 rpm, with torque values from 28.8 Nm to 56.0 Nm. Air temperatures varied from 297.5K to 299.8K. A Tool Wear Failure was noted."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, with torque values between 28.8 Nm and 56.2 Nm. Air temperatures spanned 297.5K to 299.9K, and operations remained normal."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, temperatures ranged from 309.1K to 309.6K, rotational speeds from 1320 rpm to 1955 rpm, and torque values between 28.5 Nm and 56.0 Nm. Air temperatures shifted from 297.4K to 299.9K, with a Tool Wear Failure recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","In this interval, process temperatures ranged between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures were maintained between 297.6K and 299.8K."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","Process conditions during this period were stable with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures remained within expected limits."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process parameters ranged from 309.3K to 309.7K with rotational speeds between 1325 rpm and 1955 rpm. Torque varied from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure occurred."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, temperatures varied from 309.2K to 309.7K, rotational speeds from 1330 rpm to 1965 rpm, and torque from 28.8 Nm to 56.2 Nm. Air temperatures ranged between 297.5K and 299.9K, with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, temperatures ranged from 309.1K to 309.6K, rotational speeds from 1320 rpm to 1955 rpm, and torque varied from 28.5 Nm to 56.0 Nm. Air temperatures shifted from 297.4K to 299.9K, with one Tool Wear Failure recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds fluctuated from 1330 rpm to 1945 rpm, torque values from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no issues."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","During this cycle, the process temperature was maintained between 309.2K and 309.7K, with rotational speeds from 1332 rpm to 1960 rpm and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures were consistent between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process conditions during this period showed temperatures between 309.3K and 309.7K, rotational speeds from 1325 rpm to 1955 rpm, and torque values from 28.8 Nm to 56.0 Nm. Air temperatures ranged from 297.5K to 299.8K, with a Tool Wear Failure observed."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, process temperatures ranged from 309.2K to 309.7K. Rotational speeds varied from 1330 rpm to 1965 rpm, torque from 28.8 Nm to 56.2 Nm, and air temperatures from 297.5K to 299.9K, with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K, rotational speeds varied between 1320 rpm and 1955 rpm, torque from 28.5 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no anomalies."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","Process conditions were stable during this period with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values from 29.2 Nm to 56.1 Nm. Air temperatures remained between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process parameters during this interval ranged from 309.3K to 309.7K, with rotational speeds between 1325 rpm and 1955 rpm, torque from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure was observed."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, torque from 28.8 Nm to 56.2 Nm, and air temperatures from 297.5K to 299.9K, indicating normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K, with rotational speeds between 1320 rpm and 1955 rpm, torque values from 28.5 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque values from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no anomalies."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","Process conditions were stable during this period with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures remained within expected limits."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process parameters ranged from 309.3K to 309.7K with rotational speeds between 1325 rpm and 1955 rpm, torque from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure was noted."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, process temperatures ranged from 309.2K to 309.7K, rotational speeds from 1330 rpm to 1965 rpm, and torque values from 28.8 Nm to 56.2 Nm. Air temperatures ranged from 297.5K to 299.9K with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+High rotational speed detected: 1885 rpm.
+
+Torque increasing to 55.2 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1345 rpm.
+
+Torque decreasing to 29.5 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1920 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.9 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between 1325 rpm and 1945 rpm, torque values from 28.9 Nm to 56.0 Nm, and air temperatures shifted from 297.4K to 299.8K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, torque values fluctuated between 28.8 Nm and 56.2 Nm, and air temperatures shifted from 297.5K to 299.9K. No failure events occurred."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this monitoring period, process temperatures ranged from 309.1K to 309.6K. Rotational speeds varied between 1320 rpm and 1955 rpm, torque values from 28.5 Nm to 56.0 Nm, and air temperatures shifted from 297.4K to 299.9K. A Tool Wear Failure was detected."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","In this interval, process temperatures were between 309.3K and 309.7K. Rotational speeds ranged from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures fluctuated between 297.6K and 299.8K. No failures occurred."
+"Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1328 rpm.
+
+Torque decreasing to 29.1 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1920 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.8K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 28.7 Nm.
+
+Air temperature dropping to 297.4K.","Process conditions during this period ranged from 309.2K to 309.8K with rotational speeds between 1328 rpm and 1950 rpm. Torque values spanned from 28.7 Nm to 56.0 Nm, and air temperatures varied from 297.4K to 299.9K. Normal operation was maintained."
+"Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.3 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.7K.","This period featured process temperatures between 309.5K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, torque ranged from 29.3 Nm to 56.2 Nm, and air temperatures stayed between 297.6K and 299.9K, with all parameters normal."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.4 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature dropping to 297.7K.","During this cycle, process temperatures ranged from 309.2K to 309.6K. Rotational speeds ranged from 1330 rpm to 1960 rpm, torque varied from 29.0 Nm to 56.1 Nm, and air temperatures shifted from 297.5K to 299.8K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.","This entry shows process temperatures ranging from 309.3K to 309.7K. Rotational speeds varied between 1325 rpm and 1955 rpm, torque values from 28.8 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. No failure events occurred."
+"Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1915 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.1 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.4 Nm.
+
+Air temperature rising to 299.7K.","Process parameters in this period were maintained with temperatures between 309.2K and 309.7K, rotational speeds from 1335 rpm to 1940 rpm, and torque between 29.1 Nm and 56.0 Nm. Normal operation was observed."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1322 rpm.
+
+Torque decreasing to 28.7 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1920 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.","In this segment, process temperatures ranged from 309.3K to 309.7K, with rotational speeds between 1322 rpm and 1950 rpm, and torque values from 28.7 Nm to 56.0 Nm. Air temperatures varied from 297.4K to 299.8K. No faults were reported."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","This period exhibited process temperatures between 309.2K and 309.7K. Rotational speeds varied from 1332 rpm to 1960 rpm, torque ranged between 29.2 Nm and 56.1 Nm, and air temperatures were maintained between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Over this cycle, process temperatures ranged from 309.3K to 309.7K. Rotational speeds were between 1325 rpm and 1955 rpm, with torque values from 28.8 Nm to 56.0 Nm. Air temperatures varied from 297.5K to 299.8K. A Tool Wear Failure was noted."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Throughout this period, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, with torque values between 28.8 Nm and 56.2 Nm. Air temperatures spanned 297.5K to 299.9K, and operations remained normal."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, temperatures ranged from 309.1K to 309.6K, rotational speeds from 1320 rpm to 1955 rpm, and torque values between 28.5 Nm and 56.0 Nm. Air temperatures shifted from 297.4K to 299.9K, with a Tool Wear Failure recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","In this interval, process temperatures ranged between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures were maintained between 297.6K and 299.8K."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","Process conditions during this period were stable with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures remained within expected limits."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process parameters ranged from 309.3K to 309.7K with rotational speeds between 1325 rpm and 1955 rpm. Torque varied from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure occurred."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, temperatures varied from 309.2K to 309.7K, rotational speeds from 1330 rpm to 1965 rpm, and torque from 28.8 Nm to 56.2 Nm. Air temperatures ranged between 297.5K and 299.9K, with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, temperatures ranged from 309.1K to 309.6K, rotational speeds from 1320 rpm to 1955 rpm, and torque varied from 28.5 Nm to 56.0 Nm. Air temperatures shifted from 297.4K to 299.9K, with one Tool Wear Failure recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds fluctuated from 1330 rpm to 1945 rpm, torque values from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no issues."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","During this cycle, the process temperature was maintained between 309.2K and 309.7K, with rotational speeds from 1332 rpm to 1960 rpm and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures were consistent between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process conditions during this period showed temperatures between 309.3K and 309.7K, rotational speeds from 1325 rpm to 1955 rpm, and torque values from 28.8 Nm to 56.0 Nm. Air temperatures ranged from 297.5K to 299.8K, with a Tool Wear Failure observed."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, process temperatures ranged from 309.2K to 309.7K. Rotational speeds varied from 1330 rpm to 1965 rpm, torque from 28.8 Nm to 56.2 Nm, and air temperatures from 297.5K to 299.9K, with normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K, rotational speeds varied between 1320 rpm and 1955 rpm, torque from 28.5 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no anomalies."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","Process conditions were stable during this period with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values from 29.2 Nm to 56.1 Nm. Air temperatures remained between 297.6K and 299.9K."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process parameters during this interval ranged from 309.3K to 309.7K, with rotational speeds between 1325 rpm and 1955 rpm, torque from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure was observed."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, process temperatures varied from 309.2K to 309.7K. Rotational speeds ranged from 1330 rpm to 1965 rpm, torque from 28.8 Nm to 56.2 Nm, and air temperatures from 297.5K to 299.9K, indicating normal operation."
+"Process temperature exceeds threshold at 309.1K.
+
+Low rotational speed: 1320 rpm.
+
+Torque decreasing to 28.5 Nm.
+
+Air temperature dropping to 297.4K.
+
+Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.6 Nm.
+
+Air temperature rising to 299.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1940 rpm.
+
+Torque increasing to 55.8 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.2K.
+
+Low rotational speed: 1335 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Failure detected: Tool Wear Failure.","During this period, process temperatures ranged from 309.1K to 309.6K, with rotational speeds between 1320 rpm and 1955 rpm, torque values from 28.5 Nm to 56.0 Nm, and air temperatures from 297.4K to 299.9K. A Tool Wear Failure was recorded."
+"Process temperature exceeds threshold at 309.3K.
+
+High rotational speed detected: 1910 rpm.
+
+Torque increasing to 55.0 Nm.
+
+Air temperature rising to 299.5K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1930 rpm.
+
+Torque increasing to 55.7 Nm.
+
+Air temperature dropping to 297.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1945 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.7K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.","Process readings were maintained between 309.3K and 309.7K. Rotational speeds varied from 1330 rpm to 1945 rpm, torque values from 29.0 Nm to 56.1 Nm, and air temperatures from 297.6K to 299.8K, with no anomalies."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1900 rpm.
+
+Torque increasing to 55.3 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1935 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1332 rpm.
+
+Torque decreasing to 29.2 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1960 rpm.
+
+Torque increasing to 56.1 Nm.
+
+Air temperature rising to 299.9K.","Process conditions were stable during this period with temperatures from 309.2K to 309.7K, rotational speeds between 1332 rpm and 1960 rpm, and torque values ranging from 29.2 Nm to 56.1 Nm. Air temperatures remained within expected limits."
+"Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1325 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.5K.
+
+High rotational speed detected: 1925 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1955 rpm.
+
+Torque increasing to 56.0 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.4K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.5K.
+
+Failure detected: Tool Wear Failure.","Process parameters ranged from 309.3K to 309.7K with rotational speeds between 1325 rpm and 1955 rpm, torque from 28.8 Nm to 56.0 Nm, and air temperatures from 297.5K to 299.8K. A Tool Wear Failure was noted."
+"Process temperature exceeds threshold at 309.2K.
+
+High rotational speed detected: 1905 rpm.
+
+Torque increasing to 55.5 Nm.
+
+Air temperature rising to 299.7K.
+
+Process temperature exceeds threshold at 309.3K.
+
+Low rotational speed: 1330 rpm.
+
+Torque decreasing to 29.0 Nm.
+
+Air temperature dropping to 297.6K.
+
+Process temperature exceeds threshold at 309.4K.
+
+High rotational speed detected: 1950 rpm.
+
+Torque increasing to 55.9 Nm.
+
+Air temperature rising to 299.9K.
+
+Process temperature exceeds threshold at 309.6K.
+
+Low rotational speed: 1340 rpm.
+
+Torque decreasing to 28.8 Nm.
+
+Air temperature dropping to 297.5K.
+
+Process temperature exceeds threshold at 309.7K.
+
+High rotational speed detected: 1965 rpm.
+
+Torque increasing to 56.2 Nm.
+
+Air temperature rising to 299.8K.
+
+Process temperature exceeds threshold at 309.5K.
+
+System operating within normal parameters.","Over this cycle, process temperatures ranged from 309.2K to 309.7K, rotational speeds from 1330 rpm to 1965 rpm, and torque values from 28.8 Nm to 56.2 Nm. Air temperatures ranged from 297.5K to 299.9K with normal operation."
