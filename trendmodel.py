@@ -5,6 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 from sklearn.preprocessing import StandardScaler, RobustScaler
 from sklearn.model_selection import TimeSeriesSplit
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from torch.utils.data import DataLoader, TensorDataset
 import os
 
@@ -122,7 +123,23 @@ trends, trend_text = trend_analysis(y_test.cpu().numpy(), predictions)
 print("Trend Analysis (Actual vs Predicted):", trends)
 print(trend_text)
 
+# Generate predictions
+with torch.no_grad():
+    predictions = model(X_test).cpu().numpy()  # Convert to NumPy for evaluation
+    actual = y_test.cpu().numpy()  # Convert ground truth to NumPy
 
+# Compute evaluation metrics
+mae = mean_absolute_error(actual, predictions)
+mse = mean_squared_error(actual, predictions)
+rmse = np.sqrt(mse)
+r2 = r2_score(actual, predictions)
+
+# Print evaluation results
+print(f"Evaluation Metrics:")
+print(f"Mean Absolute Error (MAE): {mae:.4f}")
+print(f"Mean Squared Error (MSE): {mse:.4f}")
+print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
+print(f"R-squared (R²): {r2:.4f}")
 
 # Save predictions to CSV
 def save_predictions_to_csv(predictions, filename="predicted_data.csv"):
