@@ -7,7 +7,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 rouge = evaluate.load("rouge")
 
 # Load the trained model and tokenizer
-model_path = "./t5_summarization_final_v3"  # or your latest saved model directory
+model_path = "./models/t5_summarization_final_v3"  # or your latest saved model directory
 tokenizer = T5Tokenizer.from_pretrained(model_path)
 model = T5ForConditionalGeneration.from_pretrained(model_path).to("cuda" if torch.cuda.is_available() else "cpu")
 

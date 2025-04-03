@@ -3,7 +3,7 @@ import re
 import numpy as np
 #from modelsumm2 import generate_summary
 # Load dataset
-file_path = "assets/cleaned_data_1.csv"  # Update with the correct path
+file_path = "assets/predictive_maintenance.csv"  # Update with the correct path
 df = pd.read_csv(file_path)
 
 # Function to parse input
@@ -26,22 +26,25 @@ def execute_function(parsed_data, df):
 
     for feature, function in parsed_data:
         feature_lower = feature.lower()  # Convert user input feature to lowercase
-        if feature_lower in df_columns_lower:  # Check against lowercased columns
-            actual_feature = df_columns_lower[feature_lower]  # Get actual column name
-            values = df[actual_feature].dropna().values  # Remove NaN values
-            # Perform requested operation
-            if function == "maximum":
-                results[feature] = np.max(values)
-            elif function == "minimum":
-                results[feature] = np.min(values)
-            elif function in ["mean", "average"]:
-                results[feature] = np.mean(values)
-            elif function == "standard deviation":
-                results[feature] = np.std(values)
-            elif function == "summary":
-                # results[feature] = generate_summary(df)
-                #results[feature] =generate_summary(df)
-                print( df.describe().to_string())
+        print(feature_lower)
+        for column in df_columns_lower:
+            if feature_lower in column:  # Check against lowercased columns
+                actual_feature = df_columns_lower[column]  # Get actual column name
+                values = df[actual_feature].dropna().values  # Remove NaN values
+                
+                # Perform requested operation
+                if function == "maximum":
+                    results[feature] = np.max(values)
+                elif function == "minimum":
+                    results[feature] = np.min(values)
+                elif function in ["mean", "average"]:
+                    results[feature] = np.mean(values)
+                elif function == "standard deviation":
+                    results[feature] = np.std(values)
+                elif function == "summary":
+                    # results[feature] = generate_summary(df)
+                    #results[feature] =generate_summary(df)
+                    print( df.describe().to_string())
 
     
     return ouput_str(results,parsed_data)

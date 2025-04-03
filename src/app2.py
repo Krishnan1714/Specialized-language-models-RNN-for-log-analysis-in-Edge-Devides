@@ -6,12 +6,20 @@ import sys
 from model import NERpromptmodel as ner
 import basicfeaturefunctions as bff
 import numpy as np
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
 class ChatbotGUI:
-    df=None
+    df = None
+
     def __init__(self, master):
         self.master = master
         master.title("File-Based Chatbot")
+
+        # Initialize ChatterBot
+        self.chatbot = ChatBot("LogBot")
+        self.trainer = ChatterBotCorpusTrainer(self.chatbot)
+        self.trainer.train("chatterbot.corpus.english")  # Train on basic English conversation
 
         self.chat_log = scrolledtext.ScrolledText(master, state='disabled', height=20, width=60)
         self.chat_log.grid(row=0, column=0, columnspan=2, padx=10, pady=10)
@@ -26,7 +34,7 @@ class ChatbotGUI:
         self.file_button.grid(row=2, column=0, columnspan=2, pady=5)
 
         self.file_paths = []  # Store uploaded file paths
-    
+
     def display_message(self, sender, message):
         self.chat_log.config(state='normal')
         self.chat_log.insert(tk.END, f"{sender}: {message}\n")
@@ -46,30 +54,21 @@ class ChatbotGUI:
             self.file_paths.append(filepath)
             filename = os.path.basename(filepath)
             self.display_message("System", f"File uploaded: {filename}")
-            # you can add functionality here to process the file and store its content.
-            # For example, you could read the content and store it in a variable.
-            # The next message will show the file content has been stored.
             self.process_uploaded_file(filepath)
 
     def process_uploaded_file(self, filepath):
         try:
-            # with open(filepath, 'rb') as file:
-            #     # For binary files, you might want to handle them differently.
-            #     # For text files, you can read the content.
-            #     # This example just confirms the file was stored.
-            #     self.display_message("System", f"File content stored successfully.")
             self.df = pd.read_csv(filepath)
             print(self.df.head())
-
         except Exception as e:
             self.display_message("System", f"Error processing file: {e}")
 
     def summarize_dataframe(self):
-        df=self.df
+        df = self.df
         summary = []
         stats = df.describe()
 
-        for column in df.select_dtypes(include=[np.number]).columns:  # Only numeric columns
+        for column in df.select_dtypes(include=[np.number]).columns:
             col_stats = stats[column]
             summary.append(
                 f"{column} has {int(col_stats['count'])} entries. "
@@ -80,11 +79,10 @@ class ChatbotGUI:
             )
 
         return " ".join(summary)
-    
+
     def process_message(self, message):
-        # Basic example: Echo the message back.
         if "hello" in message.lower() or "hi" in message.lower():
-            self.display_message("Bot", "Hello there! Would you like some help analyzing a log file")
+            self.display_message("Bot", "Hello there! Would you like some help analyzing a log file?")
         elif "files" in message.lower():
             if self.file_paths:
                 file_names = [os.path.basename(path) for path in self.file_paths]
@@ -92,35 +90,32 @@ class ChatbotGUI:
             else:
                 self.display_message("Bot", "No files uploaded yet.")
         else:
-            text = message
             if self.df is None:
-                self.display_message("Bot", "It seems like you have not uploaded a csv log file yet, Please do that first.")
-                return  # Stop further processing
-            tokens, pred_labels, output_str = ner.predict_text(text)
+                self.display_message("Bot", "It seems like you have not uploaded a CSV log file yet. Please do that first.")
+                return
+
+            # Process with NER model
+            tokens, pred_labels, output_str = ner.predict_text(message)
             print("\n--- Results ---")
-            print("Tokens:")
-            print(tokens)
-            print("\nPredicted Labels:")
-            print(pred_labels)
-            print("\nStructured Output:")
-            print(output_str)
+            print("Tokens:", tokens)
+            print("Predicted Labels:", pred_labels)
+            print("Structured Output:", output_str)
             print("----------------\n")
 
-             # Example input from chatbot
-
-            # Process input and execute functions
+            # Process parsed data
             parsed_data = bff.parse_input(output_str)
-            print(parsed_data)      
             output = bff.execute_function(parsed_data, self.df)
 
-            # Join the phrases into a final sentence
-            if output == "":
-                self.display_message("Bot", "Sorry I couldn't understand...could you please repharse that.")
-            else:
+            if output:
                 self.display_message("Bot", output)
-            if "summary" in output_str:
+            elif "summary" in output_str:
                 self.display_message("Bot", self.summarize_dataframe())
+            else:
+                # If no log-related response, fall back to ChatterBot
+                bot_response = self.chatbot.get_response(message)
+                self.display_message("Bot", str(bot_response))
 
+# Run the chatbot
 root = tk.Tk()
-chatbot = ChatbotGUI(root)  
+chatbot = ChatbotGUI(root)
 root.mainloop()
