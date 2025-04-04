@@ -243,8 +243,7 @@ def trend_analysis(actual, predicted):
     predicted_df = pd.DataFrame(predicted, columns=features)
     trends = {}
     trend_text = ""
-    for col in features:
-    if col not in ['Target']:
+    for col in features:        
         actual_trend = float(np.polyfit(range(len(actual_df[col])), actual_df[col], 1)[0])
         predicted_trend = float(np.polyfit(range(len(predicted_df[col])), predicted_df[col], 1)[0])
         trends[col] = (actual_trend, predicted_trend)
