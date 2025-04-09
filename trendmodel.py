@@ -9,6 +9,8 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from torch.utils.data import DataLoader, TensorDataset
 import os
 from sklearn.preprocessing import OrdinalEncoder
+import torch.onnx
+from onnxruntime.quantization import quantize_dynamic, QuantType
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -96,6 +98,14 @@ else:
         print(f"Epoch {epoch + 1}/20 - Loss: {total_loss:.4f}")
     torch.save(model.state_dict(),model_path)
     print("Model trained and saved.")
+    print("Trained model saved as 'trained_lstm_model.pth'")
+    # Quantize the trained model and save it
+    quantized_model = torch.quantization.quantize_dynamic(
+        model, {nn.Linear, nn.LSTM}, dtype=torch.qint8
+    )
+    torch.save(quantized_model.state_dict(), "quantized_trendmodel.pth")
+    print("Quantized model saved as 'quantized_trendmodel.pth'")
+
 
 def inverse_transform(predictions):
     standard_features = ["Torque", "Process temperature", "Air temperature"]
@@ -210,3 +220,38 @@ def save_predictions_to_csv(predictions, filename="predicted_data.csv"):
     print(f"Predictions appended to {filename}")
 
 save_predictions_to_csv(predictions)
+
+
+
+# Dummy input for ONNX export
+dummy_input = torch.randn(1, 20, len(features)).to(device)
+
+# Export original model
+onnx_file_normal = "trendmodel.onnx"
+torch.onnx.export(
+    model,
+    dummy_input,
+    onnx_file_normal,
+    input_names=["input"],
+    output_names=["output"],
+    dynamic_axes={"input": {0: "batch"}, "output": {0: "batch"}},
+    opset_version=13
+)
+print(f"✅ Exported original model to ONNX: {onnx_file_normal}")
+
+# Quantize again (since your quantized_model is only inside else block)
+quantized_model = torch.quantization.quantize_dynamic(
+    model, {nn.Linear, nn.LSTM}, dtype=torch.qint8
+)
+
+# Export quantized model
+
+
+quantize_dynamic(
+    model_input="trendmodel.onnx",
+    model_output="quantized_trendmodel.onnx",
+    weight_type=QuantType.QInt8
+)
+
+print("✅ Quantized ONNX model saved as 'quantized_trendmodel.onnx'")
+
