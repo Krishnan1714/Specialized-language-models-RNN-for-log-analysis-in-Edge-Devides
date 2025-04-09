@@ -1,40 +1,54 @@
 import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_squared_error
-from fastdtw import fastdtw
-from scipy.spatial.distance import euclidean
 import torch
-import trendmodel as tmd
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score, accuracy_score, precision_score, recall_score, f1_score, classification_report
+from trendmodel import model, X_test, y_test, encoder
 
-# Load the original and predicted data
-original = pd.read_csv("cleaned_data_scaled.csv")
-predicted = pd.read_csv("predicted_data.csv")
+model.eval()
+with torch.no_grad():
+    predictions = model(X_test)
 
-# Inverse transform the predicted data to get original scale
-predicted_original = tmd. inverse_transform(predicted.values)
+    y_target_true = y_test[:, 5].cpu().numpy()
+    y_failure_true = torch.argmax(y_test[:, 6:], dim=1).cpu().numpy()
+    y_reg_true = y_test[:, :5].cpu().numpy()
 
-# Calculate Mean Squared Error (MSE)
-def calculate_mse(actual, predicted):
-    mse = mean_squared_error(actual, predicted)
-    return mse
+    pred_reg = predictions[:, :5]
+    pred_target = predictions[:, 5]
+    pred_failure = predictions[:, 6:]
 
-# Calculate Root Mean Squared Error (RMSE)
-def calculate_rmse(mse):
-    return np.sqrt(mse)
+    pred_target_prob = torch.sigmoid(pred_target)
+    pred_target_label = (pred_target_prob > 0.5).float().cpu().numpy()
 
-# Calculate Dynamic Time Warping (DTW) distance
-def calculate_dtw(actual, predicted):
-    distance, _ = fastdtw(actual, predicted, dist=euclidean)
-    return distance
+    acc_target = accuracy_score(y_target_true, pred_target_label)
+    f1_target = f1_score(y_target_true, pred_target_label)
+    precision_target = precision_score(y_target_true, pred_target_label)
+    recall_target = recall_score(y_target_true, pred_target_label)
 
-print(f"Shape of actual: {tmd.y_test.cpu().numpy().shape}")
-print(f"Shape of predicted: {tmd.predictions.shape}")
+    print("=== Binary Classification (Target) ===")
+    print(f"Accuracy: {acc_target:.4f}")
+    print(f"F1 Score: {f1_target:.4f}")
+    print(f"Precision: {precision_target:.4f}")
+    print(f"Recall: {recall_target:.4f}\n")
 
-# Evaluate the model
-mse = calculate_mse(original[tmd.features].values, predicted_original.values)
-rmse = calculate_rmse(mse)
-dtw_distance = calculate_dtw(original[tmd.features].values, predicted_original.values)
+    pred_failure_labels = torch.argmax(pred_failure, dim=1).cpu().numpy()
+    print("=== Multiclass Classification (Failure Type) ===")
+    labels_present = np.unique(np.concatenate([y_failure_true, pred_failure_labels]))
+print(classification_report(
+    y_failure_true, 
+    pred_failure_labels, 
+    labels=labels_present, 
+    target_names=[encoder.categories_[0][i] for i in labels_present],
+    zero_division=0
+))
 
-print(f"Mean Squared Error (MSE): {mse}")
-print(f"Root Mean Squared Error (RMSE): {rmse}")
-print(f"Dynamic Time Warping (DTW) Distance: {dtw_distance}")
+pred_reg_np = pred_reg.cpu().numpy()
+mae = mean_absolute_error(y_reg_true, pred_reg_np)
+mse = mean_squared_error(y_reg_true, pred_reg_np)
+rmse = np.sqrt(mse)
+r2 = r2_score(y_reg_true, pred_reg_np)
+
+print("=== Regression (Sensor Features) ===")
+print(f"MAE: {mae:.4f}")
+print(f"MSE: {mse:.4f}")
+print(f"RMSE: {rmse:.4f}")
+print(f"R²: {r2:.4f}")
