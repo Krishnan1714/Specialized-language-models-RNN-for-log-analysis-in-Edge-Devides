@@ -6,3 +6,5 @@ tensorflow
 transformers
 scikit-learn
 fastdtw
+onnx
+onnxruntime

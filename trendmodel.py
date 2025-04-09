@@ -5,10 +5,8 @@ import torch.nn as nn
 import torch.optim as optim
 from sklearn.preprocessing import StandardScaler, RobustScaler, OneHotEncoder
 from sklearn.model_selection import TimeSeriesSplit
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from torch.utils.data import DataLoader, TensorDataset
 import os
-from sklearn.preprocessing import OrdinalEncoder
 import torch.onnx
 from onnxruntime.quantization import quantize_dynamic, QuantType
 
@@ -157,7 +155,7 @@ def inverse_transform(predictions):
     return pred_df
 
 model.eval()
-print("MODEL EVAL \n",model.eval())
+#print("MODEL EVAL \n",model.eval())
 predictions = model(X_test).cpu().detach().numpy()
 predictions_original = inverse_transform(predictions)
 actual_original = inverse_transform(y_test.cpu().numpy())
@@ -223,35 +221,27 @@ save_predictions_to_csv(predictions)
 
 
 
-# Dummy input for ONNX export
-dummy_input = torch.randn(1, 20, len(features)).to(device)
+if __name__ == "__main__":
+    # Dummy input for ONNX export
+    dummy_input = torch.randn(1, 20, len(features)).to(device)
 
-# Export original model
-onnx_file_normal = "trendmodel.onnx"
-torch.onnx.export(
-    model,
-    dummy_input,
-    onnx_file_normal,
-    input_names=["input"],
-    output_names=["output"],
-    dynamic_axes={"input": {0: "batch"}, "output": {0: "batch"}},
-    opset_version=13
-)
-print(f"✅ Exported original model to ONNX: {onnx_file_normal}")
+    # Export original model
+    onnx_file_normal = "trendmodel.onnx"
+    torch.onnx.export(
+        model,
+        dummy_input,
+        onnx_file_normal,
+        input_names=["input"],
+        output_names=["output"],
+        dynamic_axes={"input": {0: "batch"}, "output": {0: "batch"}},
+        opset_version=13
+    )
+    print(f"✅ Exported original model to ONNX: {onnx_file_normal}")
 
-# Quantize again (since your quantized_model is only inside else block)
-quantized_model = torch.quantization.quantize_dynamic(
-    model, {nn.Linear, nn.LSTM}, dtype=torch.qint8
-)
-
-# Export quantized model
-
-
-quantize_dynamic(
-    model_input="trendmodel.onnx",
-    model_output="quantized_trendmodel.onnx",
-    weight_type=QuantType.QInt8
-)
-
-print("✅ Quantized ONNX model saved as 'quantized_trendmodel.onnx'")
-
+    # Quantize ONNX model
+    quantize_dynamic(
+        model_input="trendmodel.onnx",
+        model_output="quantized_trendmodel.onnx",
+        weight_type=QuantType.QInt8
+    )
+    print("✅ Quantized ONNX model saved as 'quantized_trendmodel.onnx'")
