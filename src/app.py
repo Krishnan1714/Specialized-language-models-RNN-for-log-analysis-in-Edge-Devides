@@ -3,7 +3,7 @@ from tkinter import scrolledtext, filedialog, messagebox
 import os
 import pandas as pd
 import sys
-from model import NERpromptmodel as ner
+import NERpromptonnx as ner
 import basicfeaturefunctions as bff
 import numpy as np
 
@@ -96,7 +96,7 @@ class ChatbotGUI:
             if self.df is None:
                 self.display_message("Bot", "It seems like you have not uploaded a csv log file yet, Please do that first.")
                 return  # Stop further processing
-            tokens, pred_labels, output_str = ner.predict_text(text)
+            tokens, pred_labels, output_str = ner.predict_text_onnx(text)
             print("\n--- Results ---")
             print("Tokens:")
             print(tokens)
@@ -124,3 +124,31 @@ class ChatbotGUI:
 root = tk.Tk()
 chatbot = ChatbotGUI(root)  
 root.mainloop()
+
+def main():
+    bot = ChatbotBackend()
+    print("📁 Welcome to the Log File Chatbot (Terminal Mode)")
+    print("Commands:\n 1. upload <path-to-csv>\n 2. ask <your-question>\n 3. exit")
+
+    while True:
+        user_input = input("\n>>> ").strip()
+        
+        if user_input.lower() == "exit":
+            print("👋 Exiting chatbot.")
+            break
+
+        if user_input.startswith("upload "):
+            path = user_input[len("upload "):].strip()
+            result = bot.upload_file(path)
+            print(result)
+
+        elif user_input.startswith("ask "):
+            message = user_input[len("ask "):].strip()
+            response = bot.process_message(message)
+            print("🤖", response)
+
+        else:
+            print("❓ Unknown command. Try: upload <path>, ask <message>, or exit.")
+
+if __name__ == "__main__":
+    main()
