@@ -308,8 +308,7 @@ if __name__ == "__main__":
     onnx_model = onnx.load(onnx_model_path)
     onnx.checker.check_model(onnx_model)
     print(f"✅ Loaded ONNX model from {onnx_model_path}")
-    for input in onnx_model.graph.input:
-        print(input.name, input.type)
+
 
    
 
