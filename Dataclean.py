@@ -5,98 +5,82 @@ from sklearn.preprocessing import StandardScaler, RobustScaler
 import matplotlib.pyplot as plt
 import joblib
 
-# Show plots without blocking execution
-plt.show(block=False)  # Alternative: plt.pause(1)
+def load_data(file_path):
+    return pd.read_csv(file_path)
 
-# Load Data
-df = pd.read_csv('assets/predictive_maintenance_updated.csv')
+def preprocess_data(df):
+    # Drop unnecessary columns
+    df.drop(['Timestamp'], axis=1, inplace=True, errors='ignore')
 
-# Drop unnecessary columns
-df.drop(['Timestamp'], axis=1, inplace=True,errors='ignore')
+    # Rename columns
+    df = df.rename(columns={
+        'Air temperature [K]': 'Air temperature',
+        'Process temperature [K]': 'Process temperature',
+        'Rotational speed [rpm]': 'Rotational speed',
+        'Torque [Nm]': 'Torque', 
+        'Tool wear [min]': 'Tool wear'
+    })
 
-# Rename columns
-df = df.rename(columns={
-    'Air temperature [K]': 'Air temperature',
-    'Process temperature [K]': 'Process temperature',
-    'Rotational speed [rpm]': 'Rotational speed',
-    'Torque [Nm]': 'Torque', 
-    'Tool wear [min]': 'Tool wear'
-})
+    # Remove misclassified instances
+    df = df[~((df['Target'] == 1) & (df['Failure Type'] == 'No Failure'))]
+    df = df[~((df['Target'] == 0) & (df['Failure Type'] == 'Random Failures'))]
 
-print("Initial Dataset Info:")
-print(df.info())
+    # Reset index
+    df.reset_index(inplace=True, drop=True)
 
-# Generate histograms
-df[["Air temperature", "Process temperature", "Rotational speed", "Torque", "Tool wear"]].hist(figsize=(12, 8), bins=30)
-plt.show()
+    # Define features before encoding
+    features = ["Air temperature", "Process temperature", "Rotational speed", 
+                "Torque", "Tool wear", "Target", "Failure Type"]
 
-# Remove misclassified instances
-df = df[~((df['Target'] == 1) & (df['Failure Type'] == 'No Failure'))]
-df = df[~((df['Target'] == 0) & (df['Failure Type'] == 'Random Failures'))]
+    # Ordinal Encoding for categorical variables
+    failure_type_order = ["No Failure", "Heat Dissipation Failure", "Power Failure", "Overstrain Failure", "Random Failures","Tool Wear Failure"]
+    # ord_enc = OrdinalEncoder(categories=[failure_type_order])
+    # df[["Failure Type"]] = ord_enc.fit_transform(df[["Failure Type"]])
+    # df["Failure Type"] = df["Failure Type"].astype(int)  # Ensure integer encoding
 
-# Reset index
-df.reset_index(inplace=True, drop=True)
+    # Drop duplicate rows if any and handle missing values
+    df = df.drop_duplicates().dropna()
 
-# Define features before encoding
-features = ["Air temperature", "Process temperature", "Rotational speed", 
-            "Torque", "Tool wear", "Target", "Failure Type"]
+    return df
 
-# failure_type_counts = df["Failure Type"].value_counts(dropna=False)
-# print(failure_type_counts)
+def scale_features(df):
+    # Define feature groups based on distribution
+    standard_features = ["Torque", "Process temperature", "Air temperature"]
+    robust_features = ["Rotational speed", "Tool wear"]
 
-# Ordinal Encoding for categorical variables
-# Ordinal Encoding for 'Failure Type' with a fixed category order
-failure_type_order = ["No Failure", "Heat Dissipation Failure", "Power Failure", "Overstrain Failure", "Random Failures","Tool Wear Failure"]
-ord_enc = OrdinalEncoder(categories=[failure_type_order])
-df[["Failure Type"]] = ord_enc.fit_transform(df[["Failure Type"]])
-df["Failure Type"] = df["Failure Type"].astype(int)  # Ensure integer encoding
+    # Apply StandardScaler to Gaussian-like features
+    scaler_standard = StandardScaler()
+    df[standard_features] = scaler_standard.fit_transform(df[standard_features])
 
-# Drop duplicate rows if any and handle missing values
-df = df.drop_duplicates().dropna()
+    # Apply RobustScaler to skewed features
+    scaler_robust = RobustScaler()
+    df[robust_features] = scaler_robust.fit_transform(df[robust_features])
+    return df
 
-# Define feature groups based on distribution
-standard_features = ["Torque", "Process temperature", "Air temperature"]
-robust_features = ["Rotational speed", "Tool wear"]
+def save_data(df, file_path):
+    df.to_csv(file_path, index=False)
 
-# Apply StandardScaler to Gaussian-like features
-scaler_standard = StandardScaler()
-df[standard_features] = scaler_standard.fit_transform(df[standard_features])
+def clean_and_scale_data(csv_file_path):
+    df = load_data(csv_file_path)
+    df = preprocess_data(df)
+    df = scale_features(df)
+    return df
 
-# Apply RobustScaler to skewed features
-scaler_robust = RobustScaler()
-df[robust_features] = scaler_robust.fit_transform(df[robust_features])
+def main():
+    file_path = 'assets/predictive_maintenance_updated.csv'
+    df = load_data(file_path)
+    df = preprocess_data(df)
+    df = scale_features(df)
+    save_data(df, 'assets/cleaned_data_scaled.csv')
 
+    print("Initial Dataset Info:")
+    print(df.info())
 
-# # Inverse transform the scaled features to recover original values
-# predictions_standard_original = scaler_standard.inverse_transform(df[standard_features])
-# predictions_robust_original = scaler_robust.inverse_transform(df[robust_features])
+    # Generate histograms
+    df[["Air temperature", "Process temperature", "Rotational speed", "Torque", "Tool wear"]].hist(figsize=(12, 8), bins=30)
+    plt.show()
 
-# # Reorder standard-scaled columns from original order ["Torque", "Process temperature", "Air temperature"]
-# # to desired order: [Air temperature, Process temperature, Torque]
-# standard_reordered = predictions_standard_original[:, [2, 1, 0]]
+    print("✅ Data preprocessing complete with appropriate scaling!")
 
-# # Extract the unscaled columns in desired order: ["Target",  "Failure Type"]
-# unscaled = df[["Target",  "Failure Type"]].values
-
-# # Combine the groups in the following order:
-# # [Air temperature, Process temperature, Rotational speed, Torque, Tool wear, Target, Failure Type]
-# predictions_original = np.hstack((
-#     standard_reordered[:, :2],               # Air temperature, Process temperature
-#     predictions_robust_original[:, 0:1],       # Rotational speed
-#     standard_reordered[:, 2:3],              # Torque
-#     predictions_robust_original[:, 1:2],       # Tool wear
-#     unscaled                                 # Target, Failure Type
-# ))
-
-# # Create a DataFrame to print like the original CSV
-# columns_order = ["Air temperature", "Process temperature", "Rotational speed",
-#                  "Torque", "Tool wear", "Target", "Failure Type"]
-
-# df_print = pd.DataFrame(predictions_original, columns=columns_order)
-
-# print(df_print.head())
-
-# Save cleaned dataset
-df.to_csv('assets/cleaned_data_scaled.csv', index=False)
-
-print("✅ Data preprocessing complete with appropriate scaling!")
+if __name__ == "__main__":
+    main()

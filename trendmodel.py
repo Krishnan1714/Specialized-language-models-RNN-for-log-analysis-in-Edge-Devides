@@ -9,6 +9,11 @@ from torch.utils.data import DataLoader, TensorDataset
 import os
 import torch.onnx
 from onnxruntime.quantization import quantize_dynamic, QuantType
+from Dataclean import clean_and_scale_data
+
+import onnx
+
+
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -24,6 +29,10 @@ features = ["Air temperature", "Process temperature", "Rotational speed", "Torqu
 
 standard_scaled = ["Air temperature", "Process temperature", "Torque"]
 robust_scaled = ["Rotational speed", "Tool wear"]
+
+
+
+
 
 def create_sequences(data, seq_length=20):
     X, y = [], []
@@ -160,8 +169,8 @@ predictions = model(X_test).cpu().detach().numpy()
 predictions_original = inverse_transform(predictions)
 actual_original = inverse_transform(y_test.cpu().numpy())
 
-print("First five actual values:\n", actual_original.head())
-print("First five predictions:\n",predictions_original.head())
+#print("First five actual values:\n", actual_original.head())
+#print("First five predictions:\n",predictions_original.head())
 
 def trend_analysis(actual, predicted):
     actual_df = pd.DataFrame(actual, columns=features)
@@ -173,6 +182,7 @@ def trend_analysis(actual, predicted):
         predicted_trend = float(np.polyfit(range(len(predicted_df[col])), predicted_df[col], 1)[0])
         trends[col] = (actual_trend, predicted_trend)
         trend_text += f"{col}:\n Actual Trend:{'Increasing' if actual_trend > 0 else 'Decreasing' if actual_trend < 0 else 'Stable'}, Predicted Trend: {'Increasing' if predicted_trend > 0 else 'Decreasing' if predicted_trend < 0 else 'Stable'}\n"
+
     return trends, trend_text
 
 def describe_trend(slope):
@@ -206,7 +216,7 @@ def trend_analysis_only_predicted(actual, predicted, features, label_encoder=Non
 
     return trend_descriptions
 
-print(trend_analysis_only_predicted(y_test.cpu().numpy(), predictions, features, label_encoder=encoder))
+#print(trend_analysis_only_predicted(y_test.cpu().numpy(), predictions, features, label_encoder=encoder))
 trends, trend_text = trend_analysis(y_test.cpu().numpy(), predictions)
 
 def save_predictions_to_csv(predictions, filename="predicted_data.csv"):
@@ -219,23 +229,69 @@ def save_predictions_to_csv(predictions, filename="predicted_data.csv"):
 
 save_predictions_to_csv(predictions)
 
+def run_trend_analysis_on_uploaded_file(csv_path):
+    df = clean_and_scale_data(csv_path)
+
+    # One-hot encode failure type
+    encoder = OneHotEncoder(sparse_output=False)
+    encoded = encoder.fit_transform(df[["Failure Type"]])
+    encoded_df = pd.DataFrame(encoded, columns=encoder.get_feature_names_out(["Failure Type"]))
+    df = pd.concat([df.drop("Failure Type", axis=1), encoded_df], axis=1)
+
+    # Rebuild features
+    features = ["Air temperature", "Process temperature", "Rotational speed", "Torque", "Tool wear", "Target"] + list(encoder.get_feature_names_out(["Failure Type"]))
+
+    # Create sequences
+    def create_sequences(data, seq_length=20):
+        X, y = [], []
+        for i in range(len(data) - seq_length):
+            X.append(data[i : i + seq_length])
+            y.append(data[i + seq_length])
+        return np.array(X), np.array(y)
+
+    X, y = create_sequences(df[features].values, seq_length=20)
+
+    X_test = torch.tensor(X, dtype=torch.float32).to(device)
+    y_test = torch.tensor(y, dtype=torch.float32).to(device)
+
+    model.eval()
+    predictions = model(X_test).cpu().detach().numpy()
+    
+    # Inverse transform
+    predictions_original = inverse_transform(predictions)
+    actual_original = inverse_transform(y_test.cpu().numpy())
+
+    print("First five actual values:\n", actual_original.head())
+    print("First five predictions:\n",predictions_original.head())
+
+    # Print trends
+    print(trend_analysis_only_predicted(y_test.cpu().numpy(), predictions, features, label_encoder=encoder))
+    trends, trend_text = trend_analysis(y_test.cpu().numpy(), predictions)
+
+    # Save predictions
+    save_predictions_to_csv(predictions)
+
+    return predictions_original, actual_original, trends, trend_text
+
 
 
 if __name__ == "__main__":
     # Dummy input for ONNX export
     dummy_input = torch.randn(1, 20, len(features)).to(device)
+    run_trend_analysis_on_uploaded_file("assets/cleaned_data_scaled.csv")
 
     # Export original model
     onnx_file_normal = "trendmodel.onnx"
     torch.onnx.export(
         model,
-        dummy_input,
+        dummy_input,  # <- single tensor
         onnx_file_normal,
         input_names=["input"],
         output_names=["output"],
         dynamic_axes={"input": {0: "batch"}, "output": {0: "batch"}},
         opset_version=13
     )
+
     print(f"✅ Exported original model to ONNX: {onnx_file_normal}")
 
     # Quantize ONNX model
@@ -245,3 +301,16 @@ if __name__ == "__main__":
         weight_type=QuantType.QInt8
     )
     print("✅ Quantized ONNX model saved as 'quantized_trendmodel.onnx'")
+
+
+    # Load the ONNX model
+    onnx_model_path = "trendmodel.onnx"
+    onnx_model = onnx.load(onnx_model_path)
+    onnx.checker.check_model(onnx_model)
+    print(f"✅ Loaded ONNX model from {onnx_model_path}")
+    for input in onnx_model.graph.input:
+        print(input.name, input.type)
+
+   
+
+    
