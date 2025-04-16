@@ -169,8 +169,8 @@ predictions = model(X_test).cpu().detach().numpy()
 predictions_original = inverse_transform(predictions)
 actual_original = inverse_transform(y_test.cpu().numpy())
 
-#print("First five actual values:\n", actual_original.head())
-#print("First five predictions:\n",predictions_original.head())
+print("First five actual values:\n", actual_original.head())
+print("First five predictions:\n",predictions_original.head())
 
 def trend_analysis(actual, predicted):
     actual_df = pd.DataFrame(actual, columns=features)
@@ -194,16 +194,21 @@ def describe_trend(slope):
         return f"Stable ➖ (Rate: {slope:.6f})"
 
 def get_readable_label(col, label_encoder):
-    failure_labels = label_encoder.categories_[0] if label_encoder else []
     if "Failure Type" in col and "_" in col:
         try:
+            # Extract the index after the last underscore
             index = int(col.split("_")[-1])
-            label = failure_labels[index] if index < len(failure_labels) else "Unknown"
+            # Get the actual label from the encoder
+            failure_labels = label_encoder.categories_[0] if label_encoder else []
+            if index < len(failure_labels):
+                label = failure_labels[index]
+            else:
+                label = "Unknown"
             return f"{col} → Failure Type: {label}"
-            
         except (IndexError, ValueError):
-            return col
+            return f"{col} → Failure Type: Unknown"
     return col
+
 
 def trend_analysis_only_predicted(actual, predicted, features, label_encoder=None):
     predicted_df = pd.DataFrame(predicted, columns=features)
@@ -216,7 +221,7 @@ def trend_analysis_only_predicted(actual, predicted, features, label_encoder=Non
 
     return trend_descriptions
 
-#print(trend_analysis_only_predicted(y_test.cpu().numpy(), predictions, features, label_encoder=encoder))
+print(trend_analysis_only_predicted(y_test.cpu().numpy(), predictions, features, label_encoder=encoder))
 trends, trend_text = trend_analysis(y_test.cpu().numpy(), predictions)
 
 def save_predictions_to_csv(predictions, filename="predicted_data.csv"):
@@ -278,7 +283,7 @@ def run_trend_analysis_on_uploaded_file(csv_path):
 if __name__ == "__main__":
     # Dummy input for ONNX export
     dummy_input = torch.randn(1, 20, len(features)).to(device)
-    run_trend_analysis_on_uploaded_file("assets/cleaned_data_scaled.csv")
+    #run_trend_analysis_on_uploaded_file("assets/cleaned_data_scaled.csv")
 
     # Export original model
     onnx_file_normal = "trendmodel.onnx"
